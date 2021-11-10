@@ -5,10 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, accuracy_score
-from sklearn.metrics import precision_score, recall_score
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
@@ -41,3 +38,5 @@ rmse = np.sqrt(mse)
 print (f'r2: {r2}')
 print (f'mae: {mae}')
 print (f'rmse: {rmse}')
+
+
